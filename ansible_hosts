@@ -4,3 +4,10 @@ dev2 ansible_host=35.173.49.92
 
 [qa]
 qa1 ansible_host=54.167.218.89
+
+[first-in-rank]
+dev1
+qa1
+
+[last-in-rank]
+dev2
