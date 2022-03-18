@@ -1,1 +1,6 @@
 ---
+# indicate the hosts, name the tasks and what action to carry out
+- hosts: all
+  tasks:
+  - name: Ping All Servers
+    action: ping
