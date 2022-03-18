@@ -15,3 +15,6 @@ dev2
 [combo_group:children]
 dev
 first_in_rank
+
+[subset]
+dev[1:2]
