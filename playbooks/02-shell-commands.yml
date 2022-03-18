@@ -3,5 +3,5 @@
   tasks:
   - name: Execute Shell Commands
     shell: uname
-    registry: uname_result
+    register: uname_result
   - debug: msg="{{uname_result}}"
