@@ -11,3 +11,7 @@ qa1
 
 [last_in_rank]
 dev2
+
+[combo_groups:children]
+dev
+first_in_rank
