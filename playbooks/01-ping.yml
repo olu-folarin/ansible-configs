@@ -5,4 +5,4 @@
   - name: Ping All Servers
     action: ping
     # you can add as many actions as needed to this play
-    debug: msg="If you can see me, then I ran successfully."
+  - debug: msg="If you can see me, then I ran successfully."
