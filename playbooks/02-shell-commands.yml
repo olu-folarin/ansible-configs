@@ -1,1 +1,9 @@
 ---
+- hosts: all
+  tasks:
+  - name: Execute Shell Commands
+    shell: uname
+  - debug: msg="Found the VM's name!"
+- hosts: qa
+  tasks:
+  - debug: msg="QA now, dev group's servers later!"
