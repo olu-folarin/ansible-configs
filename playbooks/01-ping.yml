@@ -6,3 +6,6 @@
     action: ping
     # you can add as many actions as needed to this play
   - debug: msg="If you can see me, then I ran successfully."
+- hosts: dev
+  tasks:
+  - debug: msg="Checking to see if this group works."
