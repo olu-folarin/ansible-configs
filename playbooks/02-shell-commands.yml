@@ -3,4 +3,5 @@
   tasks:
   - name: Execute Shell Commands
     shell: uname
-  - debug: msg="Found the VM's name!"
+    registry: uname_result
+  - debug: msg="{{uname_result}}"
