@@ -4,6 +4,5 @@
   vars:
     variable1: "PlayBookValue"
   tasks:
-    - name: Execute Shell Commands
-    register: uname_result
-    - debug: msg="{{ uname_result }}"
+    - name: Variable Value
+      debug: msg="The value is {{ variable1 }}"
