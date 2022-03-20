@@ -2,4 +2,6 @@
 - hosts: dev
   # here you place your variables
   vars:
-  
+    variable1: "PlayBookValue"
+  tasks:
+    - name: Execute Shell Commands
