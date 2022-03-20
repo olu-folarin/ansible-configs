@@ -1,5 +1,8 @@
 ---
 - hosts: dev
+# link the variables.yml file path
+vars_file:
+  - variables.yml
   # here you place your variables
   vars:
     variable1: "PlayBookValue"
