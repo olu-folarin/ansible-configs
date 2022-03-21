@@ -1,0 +1,4 @@
+---
+- hosts: qa
+  tasks:
+    - name: Kernel
