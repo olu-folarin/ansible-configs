@@ -2,3 +2,5 @@
 - hosts: qa
   tasks:
     - name: Kernel
+    # below is one of the facts ansible gathers
+      debug: msg="{{ ansible_kernel }}"
