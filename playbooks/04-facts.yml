@@ -4,3 +4,8 @@
     - name: Kernel
     # below is one of the facts ansible gathers
       debug: msg="{{ ansible_kernel }}"
+    # you can gather more facts about a server
+    - name: kernel
+      debug: msg="{{ ansible_distribution }}"
+    - name: kernel
+      debug: msg="{{ansible_hostname}}"
