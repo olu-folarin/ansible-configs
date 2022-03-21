@@ -9,3 +9,5 @@
       debug: msg="{{ ansible_distribution }}"
     - name: Hostname
       debug: msg="{{ansible_hostname}}"
+    # you can debug a playbook by removing the name, replacing msg with var and removing the apostrophe and curly braces around the value
+      debug: var=ansible-architecture
