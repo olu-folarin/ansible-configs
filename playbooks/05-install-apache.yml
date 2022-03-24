@@ -1,6 +1,6 @@
 ---
 # install it on all the servers
-- hosts: dev
+- hosts: combo_group
   become: true
   tasks:
   # yum is a package manager
