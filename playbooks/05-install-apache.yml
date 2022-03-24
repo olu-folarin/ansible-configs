@@ -1,6 +1,7 @@
 ---
 # install it on all the servers
 - hosts: dev
+  become: true
   tasks:
   # yum is a package manager
     - yum:
