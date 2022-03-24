@@ -10,3 +10,14 @@
     - debug: var=color
     # now the conditional
       when: system == "Linux"
+    # make the tasks run on every item (iteration)
+    - debug: var=item
+      with_items:
+      - name: folarin
+        country: Nigeria
+      - name: IK
+        country: US
+      - name: Kola
+        country: UK
+      - name: Deola
+        country: Nigeria
