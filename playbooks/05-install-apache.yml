@@ -7,3 +7,5 @@
         name:
           - httpd
         state: present
+    # now run it as a service
+    - service: name=httpd state=started enabled=yes
