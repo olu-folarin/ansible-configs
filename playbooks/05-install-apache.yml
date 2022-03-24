@@ -9,3 +9,5 @@
         state: present
     # now run it as a service
     - service: name=httpd state=started enabled=yes
+    # execute a command and save it
+    - raw: "echo Created and saving this up on the apache server | sudo tee /var/www/html/index.html"
