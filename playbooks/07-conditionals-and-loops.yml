@@ -1,5 +1,12 @@
 ---
 - hosts: qa
+# creating variables to experiment with conditionals
+  vars:
+    system: "Linux"
+    color: "Teal"
   tasks:
     # - debug: var=hostvars
     - debug: var=ansible_system
+    - debug: var=color
+    # now the conditional
+      when: system == "Linux"
